@@ -21,6 +21,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
+  width: 100vw;
 }
 
 p:not(footer p),
@@ -45,8 +46,4 @@ p:not(footer p),
       width: 100%;
     }
   }
-}
-
-.copied {
-  background: $Dark-Violet;
 }

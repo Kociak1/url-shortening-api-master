@@ -526,6 +526,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
+  width: 100vw;
 }
 
 p:not(footer p),
@@ -566,9 +567,5 @@ p:not(footer p),
 .link .shorter input {
   margin-top: 0.8rem;
   width: 100%;
-}
-
-.copied {
-  background: #3b3054;
 }
 /*# sourceMappingURL=style.css.map */

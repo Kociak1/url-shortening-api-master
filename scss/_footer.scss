@@ -1,0 +1,56 @@
+footer {
+  text-align: center;
+  color: white;
+  background: $Very-Dark-Violet;
+  padding: 2rem 1rem;
+
+  .grid {
+    display: grid;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p {
+    font-weight: bold;
+  }
+  ul {
+    padding-top: 0.5rem;
+    font-weight: lighter;
+    color: $Grayish-Violet;
+    list-style: none;
+    li {
+      padding: 0.5rem;
+      &:hover {
+        color: $Cyan;
+        cursor: pointer;
+      }
+    }
+  }
+  svg {
+    fill: white;
+    &:hover {
+      fill: $Cyan;
+      cursor: pointer;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .grid {
+      width: 80%;
+      margin: 0 auto;
+      grid-template-columns: repeat(5, 1fr);
+      align-items: start;
+      text-align: left;
+
+      p {
+        margin-top: 0;
+      }
+    }
+  }
+}
+.socials {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

@@ -1,0 +1,52 @@
+@import "./typography";
+@import "./colors";
+@import "./nav";
+@import "./section1";
+@import "./section2";
+@import "./inputs";
+@import "./aside";
+@import "./footer";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  //border: 1px solid black;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+p:not(footer p),
+::placeholder {
+  color: $Grayish-Violet;
+}
+
+.link {
+  border-radius: 0.2rem;
+  background: white;
+  .source {
+    padding: 0.8rem;
+  }
+
+  .shorter {
+    border-top: 1px solid $Gray;
+    padding: 0.8rem;
+    color: $Cyan;
+
+    input {
+      margin-top: 0.8rem;
+      width: 100%;
+    }
+  }
+}
+
+.copied {
+  background: $Dark-Violet;
+}

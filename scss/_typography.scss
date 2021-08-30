@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+$fonts: (
+  h3: 2.441rem,
+  "input, button": 1.25rem,
+  h4: 1.563rem,
+  h5: 1.25rem,
+);
+
+@each $property, $value in $fonts {
+  #{$property} {
+    font-size: $value;
+  }
+}
+
+$paddings: (
+  p: 1rem,
+  button: 2rem,
+);
+
+@each $property, $value in $paddings {
+  #{$property} {
+    margin-top: $value;
+  }
+}
